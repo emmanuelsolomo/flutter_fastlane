@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:v1.12.13-hotfix.5
+FROM cirrusci/flutter:1.20.1
 
 USER root
 
