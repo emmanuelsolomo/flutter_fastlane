@@ -5,7 +5,9 @@ USER root
 ENV PATH="/tmp/node-v8.16.1-linux-x64/bin:${PATH}"
 
 RUN gem install fastlane -NV && \
-    gem install bundler
+    gem install bundler && \
+    ls /home && \
+    cat /etc/passwd
     
 USER cirrus
 
