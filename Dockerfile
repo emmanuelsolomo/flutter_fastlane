@@ -8,6 +8,7 @@ RUN gem install fastlane -NV && \
     gem install bundler && \
     adduser aeig && \
     chown -R aeig:aeig /home/aeig && \
+    chown -R aeig:aeig /sdks/flutter/ && \
     cat /etc/passwd
     
 USER aeig
